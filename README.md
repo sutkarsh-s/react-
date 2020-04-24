@@ -1,5 +1,5 @@
 # react-
-Source code of Avatar.js
+Source code of Avatarlist.js
 
 
 
