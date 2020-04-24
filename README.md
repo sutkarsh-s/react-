@@ -1,19 +1,29 @@
 # react-
-Source code of Avatar.js
+Source code of Avatar.css
 
 
-
-import React from 'react'
-const Avatarlist = (props) =>
+@import url('https://fonts.googleapis.com/css?family=gugi');
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: gugi,fantasy;}
+.mainpage
 {
-  return (
-          <div className="avatarstyle ma4 bg-light-purple dib pa3 grow shadow-4 tc">
-          <img src={`https://joeschmoe.io/api/v1/${props.name}`} alt="Avatar" />
-         <h1 className="">{props.name}</h1>
-         <p>{props.work}</p>
-         </div>
-       )
-     }
-export default Avatarlist;
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+}
+.mainpage h1
+{
+  margin: 0;
+  padding: 20px 0;
+  text-align:center;
+}
+.avatarstyle img{
+  width: 200px; height:200px;
+}
+#ck
+{
+  background: #B8DDE8;
+  padding: 10px;
+}
+
 
 
